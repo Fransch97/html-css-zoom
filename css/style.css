@@ -1,25 +1,30 @@
 /* header  */
 header{
     height: 50px;
-    background-color: red;
+    
     align-items: center;
     padding: 0 10px;
 }
 
+.sizing-inputs span{
+    background-color: #4b4b4b;
+    padding: 5px 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
 
 /* main  */
 main{
-    background-color: yellow;
     height: calc(100vh - 150px);
     overflow-y: auto;
     flex-wrap: wrap;
 }
+
 .connectet-viewer{
     position: relative;
     height: 150px;
     width: 200px;
     margin: 8px 5px;
-    
 }
 
 .connectet-viewer img{
@@ -32,7 +37,8 @@ main{
     left: 0;
     font-size: 15px;
     color: white;
-    background-color: rgb(2, 2, 2);
+    padding: 5px 5px;
+    background-color: rgba(2, 2, 2, 0.528);
 }
 
 
@@ -42,5 +48,9 @@ main{
 footer{
     background-color: red;
     height: 100px;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
 
