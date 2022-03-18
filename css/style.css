@@ -54,8 +54,16 @@ footer{
 
 .tool{
     padding: 10px;
- text-align: center;
- align-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+footer .fa-solid:active {
+    color: #7dca33;
+}
+
+footer .fa-solid:active .fa-chevron-up{
+    color: white;
 }
 
 .tool.zoom{
@@ -63,9 +71,10 @@ footer{
     flex-direction: column;
 }
 
- footer .zoom-tools .tool.zoom.chevron{
+.self-chevron {
     align-self: center;
 }
+
 .tool .fa-solid{
     font-size: 30px;
     padding-bottom: 10px;
