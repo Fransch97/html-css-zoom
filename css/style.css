@@ -1,0 +1,42 @@
+/* header  */
+header{
+    height: 50px;
+    background-color: red;
+    align-items: center;
+}
+
+
+/* main  */
+main{
+    background-color: yellow;
+    height: calc(100vh - 150px);
+    overflow-y: auto;
+}
+.connectet-viewer{
+    position: relative;
+    height: 150px;
+    width: 200px;
+    
+}
+
+.connectet-viewer img{
+    width: 100%;
+}
+
+.viewer-name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(2, 2, 2);
+}
+
+
+
+
+/* footer */
+footer{
+    background-color: red;
+    height: 100px;
+}
