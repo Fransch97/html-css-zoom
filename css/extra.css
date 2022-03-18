@@ -1,0 +1,135 @@
+main{
+    position: relative;
+}
+
+main .extra p,
+main .extra span{
+    color: black;
+}
+
+/* share screen  */
+.share-screen{
+    background-color: white;
+    width: 50%;
+    min-height: 70%;
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    display: none;
+    border: solid lightgray 2px;
+}
+
+#share-screen:target{
+    display: block;
+}
+.share-screen .zoom-icon{
+    width: 2.5%;
+    margin: 0 2px;
+}
+
+.top-options-view {
+    flex-direction: column;
+
+}
+
+.top-options-view p{
+    border-radius: 10px;
+    padding: 2px 45px;
+}
+
+.options-screens{
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+.option-screen-selceted{
+    background-color: white;
+    border: solid 1px lightgray;
+}
+
+/* screen-main  */
+.share-screen-main{
+    height: 50vh;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    justify-content: space-between;
+
+}
+
+.screen-mod{
+    width: 230px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 0 10px;
+    border: solid 1px lightgray;
+}
+
+.screen-mod p{
+    padding-top: 6px;
+}
+
+strong{
+    color: #0e71eb   ;
+}
+.screen-img{
+    width: 70%;
+}
+
+.screen-share-footer{
+ height: 5vh;
+ border-top: solid 1px lightgray;
+ padding: 0 8px;
+ justify-content: space-between;
+}
+
+input{
+    margin-right: 5px;
+}
+
+label{
+    color: black;
+    margin-right: 15px;
+}
+
+.screen-share-footer .button{
+    background-color: #0e71eb;
+    height: 23px;
+    border-radius: 8px;
+}
+.screen-share-footer .button a{
+ color: white;
+}
+
+
+.viewer-container{
+    flex-wrap: wrap;
+    max-width:80% ;
+    overflow: auto;
+}
+
+.chat{
+    background-color: white;
+     width: 300px;
+     height: 100%;
+     flex-direction: column;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     display: none;
+}
+h3{
+    color: black;
+}
+.chat-options{
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.right i{
+    margin-right: 5px;
+}
+#chat:target{
+    display: flex;
+}

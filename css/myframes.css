@@ -25,6 +25,9 @@ a{
     align-items: center;
 }
 
+.align-center{
+    align-items: center;
+}
 .end-flex{
     justify-content: flex-end;
 }
@@ -34,4 +37,8 @@ a{
 
 .no-shrink{
     flex-shrink: 0;
+}
+
+.flex-dir-column{
+    flex-direction: column;
 }

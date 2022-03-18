@@ -7,7 +7,7 @@
     <!-- css  -->
     <link rel="stylesheet" href="css/myframes.css">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/extra.css">
     <!-- font awesome  -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.css' integrity='sha512-M9yHeAbo9J8KSZVvOi5PEo4WrL6LWxbS+cvh6faIEPPqHQXhxilgCSJ/L2tTqRf73GmI4+tNy8OWSsQuwXc4fw==' crossorigin='anonymous'/>
 
@@ -34,7 +34,98 @@
     
 
     <!-- MAIN  -->
-    <main class="d-flex j-f-center">
+    <main class="d-flex">
+
+        <!-- EXTRA !!!!!!! -->
+        <div class="extra">
+
+        <!-- Manage Participants -->
+        <div id="share-screen" class="share-screen d-flex">
+            <!-- top  -->
+            <div class="top-options-view d-flex j-f-center">
+
+                <div class="instruction d-flex align-center ">
+                    <img class="zoom-icon" src="img/zoom-icon.png" alt="">
+                    <span> Seleziona una finestra o un'applicazione che vuoi condividere</span>
+                </div>
+                <div class="container-width d-flex j-f-center">
+                    <ul class="options-screens d-flex">
+        
+                        <li><a href=""><p class="option-screen-selceted">Base</p></a></li>
+                        <li><a href=""><p>Avanzate</p></a></li>
+                        <li><a href=""><p>File</p></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- top  -->
+
+            <!-- SHARE-SCREEN-MAIN  -->
+            <div class="share-screen-main d-flex">
+
+                <!-- screen  -->
+                <div class="screen-mod d-flex center-flex flex-dir-column" style="background-color: #0e71eb;">
+                    <img src="img/AkoGysul.jpg" alt="" class="screen-img">
+                    <p ><strong style="color: white;">Schermo 1</strong></p>
+                </div>
+                <!-- screen  -->
+
+                <!-- screen  -->
+                <div class="screen-mod d-flex center-flex flex-dir-column" >
+                    <img src="img/AkoGysul.jpg" alt="" class="screen-img">
+                    <p><strong>Schermo 2</strong></p>
+                </div>
+                <!-- screen  -->
+
+                <!-- screen  -->
+                <div class="screen-mod d-flex center-flex flex-dir-column">
+                    <img src="img/AkoGysul.jpg" alt="" class="screen-img">
+                    <p><strong>Schermo 3</strong></p>
+                </div>
+                <!-- screen  -->
+
+                <!-- screen  -->
+                <div class="screen-mod d-flex center-flex flex-dir-column" >
+                    <img src="img/AkoGysul.jpg" alt="" class="screen-img">
+                    <p><strong>Schermo 4</strong></p>
+                </div>
+                <!-- screen  -->
+               
+                <!-- screen  -->
+                <div class="screen-mod d-flex center-flex flex-dir-column">
+                    <img src="img/AkoGysul.jpg" alt="" class="screen-img">
+                    <p><strong>Schermo 4</strong></p>
+                </div>
+                <!-- screen  -->
+
+            </div>
+            <!--END SHARE-SCREEN-MAIN  -->
+
+
+
+
+            <!-- SCREEN-SHARE-FOOTER  -->
+            <div class="screen-share-footer d-flex align-center">
+                <div class="checks d-flex align-center">
+                    <input type="checkbox">
+                    <label for="">Condividi suono</label>
+                    <input type="checkbox">
+                    <label for="">Ottimiza per clip video</label>
+                </div>
+                <div class="button d-flex center-flex">
+                    <strong><a href="">Condividi</a></strong>
+                </div>
+            </div>
+            <!--END SCREEN-SHARE-FOOTER  -->
+
+            
+        </div>
+        <!--end Manage Participants -->
+
+        </div>
+        <!--END EXTRA !!!!! -->
+        
+        <div class="viewer-container d-flex j-f-center">
+            
 
         <!-- CONNECTED-VIEWER  -->
         <div class="connectet-viewer">
@@ -353,7 +444,36 @@
         <!--END CONNECTED-VIEWER  -->
       
 
+        </div>
 
+    <!-- CHAT  -->
+    <div id="chat" class="chat d-flex" >
+        <h3 style="text-align: center;">Chat</h3>
+        <div class="chat-iputs">
+            <div class="info">
+                <p style="color: black; text-align: center; background-color: lightgray;">Chi puo vedere i tuoi messaggi?</p>
+            </div>
+            <div class="chat-options d-flex ">
+                <div class="left">
+                    <label for="">A:</label>
+                    <select name="" id="" aria-placeholder="" style="color: black; background-color: rgb(233, 233, 233); border: none;">
+                        <option value="" >Tutti</option>
+
+                    </select>
+                </div>
+                <div class="right">
+                    <i class="fa-solid fa-sheet-plastic" style="color: black;"></i>
+                    <i class="fa-solid fa-poo" style="color: black;"></i>
+                    <i class="fa-solid fa-ellipsis" style="color: black;"></i>
+
+                </div>
+            </div>
+            <div style="width: 100%;">
+                <textarea placeholder="Digita qui un messaggio" style="color: black; width: 100%; height: 100px;" id="w3review" name="w3review" rows="4" cols="50"></textarea>
+            </div>
+        </div>
+    </div>
+    <!--END CHAT  -->
 
     </main>
     <!--END MAIN  -->
@@ -427,7 +547,7 @@
 
                     <!-- TOOL  -->
                     <li class="tool zoom">
-                        <a href="">
+                        <a href="#share-screen">
                             <i class="fa-solid fa-share-from-square"></i>
                             <p>Share Screen</p>
                         </a>
@@ -436,7 +556,7 @@
 
                     <!-- TOOL  -->
                     <li class="tool zoom">
-                        <a href="">
+                        <a href="#chat">
                             <i class="fa-solid fa-comment"></i>
                             <p>Chat</p>
                         </a>
