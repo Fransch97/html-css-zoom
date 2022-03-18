@@ -7,6 +7,11 @@
 
 body{
     background-color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
 }
 
 /* utilitys */
@@ -24,4 +29,8 @@ body{
 }
 .j-f-center{
     justify-content: center;
+}
+
+.no-shrink{
+    flex-shrink: 0;
 }

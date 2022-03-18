@@ -15,7 +15,7 @@ header{
 
 /* main  */
 main{
-    height: calc(100vh - 150px);
+    height: calc(100vh - 130px);
     overflow-y: auto;
     flex-wrap: wrap;
 }
@@ -24,7 +24,7 @@ main{
     position: relative;
     height: 150px;
     width: 200px;
-    margin: 8px 5px;
+    margin: 5px;
 }
 
 .connectet-viewer img{
@@ -46,11 +46,51 @@ main{
 
 /* footer */
 footer{
-    background-color: red;
-    height: 100px;
+    height: 80px;
     justify-content: space-between;
     align-items: center;
+    background-color: #272727;
+}
+
+.tool{
+    padding: 10px;
+ text-align: center;
+ align-items: center;
+}
+
+.tool.zoom{
+    display: flex;
+    flex-direction: column;
+}
+
+ footer .zoom-tools .tool.zoom.chevron{
+    align-self: center;
+}
+.tool .fa-solid{
+    font-size: 30px;
+    padding-bottom: 10px;
 }
 
 
+.icon-title{
+    margin-right: 10px;
+}
 
+.tool .fa-chevron-up{
+    font-size: 12px;
+}
+
+
+.button{
+    background-color: #4b4b4b;
+    flex-basis: 150px;
+    height: 100%;
+}
+.button a{
+    color: red;
+
+}
+
+.fa-share-from-square{
+    color: #7dca33;
+}
