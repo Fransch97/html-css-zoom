@@ -39,6 +39,10 @@ a{
     flex-shrink: 0;
 }
 
+.no-wrap{
+    flex-wrap: nowrap;
+}
+
 .flex-dir-column{
     flex-direction: column;
 }

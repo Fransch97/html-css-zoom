@@ -106,8 +106,8 @@ label{
 
 .viewer-container{
     flex-wrap: wrap;
-    max-width:80% ;
     overflow: auto;
+    flex-shrink: 1;
 }
 
 .chat{
