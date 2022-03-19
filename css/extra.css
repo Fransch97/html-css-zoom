@@ -11,6 +11,7 @@ main .extra span{
 .share-screen{
     background-color: white;
     width: 50%;
+    min-width: 485px;
     min-height: 70%;
     position: absolute;
     z-index: 1000;
@@ -20,6 +21,7 @@ main .extra span{
     border-radius: 8px;
     display: none;
     border: solid lightgray 2px;
+    
 }
 
 #share-screen:target{
@@ -55,7 +57,6 @@ main .extra span{
     height: 50vh;
     flex-wrap: wrap;
     padding: 10px 10px;
-    justify-content: space-between;
 
 }
 
@@ -65,13 +66,14 @@ main .extra span{
     border-radius: 10px;
     padding: 0 10px;
     border: solid 1px lightgray;
+    margin: 0 2px;
 }
 
 .screen-mod p{
     padding-top: 6px;
 }
 
-strong{
+.share-screen-main {
     color: #0e71eb   ;
 }
 .screen-img{
@@ -108,7 +110,49 @@ label{
     flex-wrap: wrap;
     overflow: auto;
     flex-shrink: 1;
+    position: relative;
 }
+
+.screen-mod:hover{
+    background-color: #0e71eb;
+    color: white
+}
+
+main .screen-shared{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: calc(100vh - 130px);
+}
+
+
+#screen-shared-one,
+#screen-shared-two,
+#screen-shared-three,
+#screen-shared-four{
+    display: none;
+}
+
+#screen-shared-one:target{
+    display: block;
+}
+#screen-shared-two:target{
+    display: block;
+}
+
+
+#screen-shared-three:target{
+    display: block;
+}
+
+#screen-shared-four:target{
+    display: block;
+}
+
+
+
+
+/* CHAT!!!!!!!! */
 
 .chat{
     background-color: white;
@@ -133,3 +177,5 @@ h3{
 #chat:target{
     display: flex;
 }
+
+

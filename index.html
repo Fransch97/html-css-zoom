@@ -19,19 +19,28 @@
     <title>Zoom</title>
 </head>
 <body>
+
+
+
     <!-- HEADER  -->
     <header class="d-flex end-flex">
 
         <!-- SIZING INPUTS -->
         <div class="sizing-inputs">
-        <span class=""><i class="fa-solid fa-table-cells"></i> Speaker View</span>
-        <span class=""><i class="fa-solid fa-maximize"></i></span>
+        <a href="#"><span class=""><i class="fa-solid fa-table-cells"></i> Speaker View</span></a>
+        <a href="#"><span class=""><i class="fa-solid fa-maximize"></i></span></a>
         </div>
         <!--END SIZING INPUTS -->
 
     </header>
     <!--END HEADER  -->
     
+
+
+
+
+
+
 
     <!-- MAIN  -->
     <main class="d-flex no-wrap">
@@ -62,45 +71,50 @@
             <!-- SHARE-SCREEN-MAIN  -->
             <div class="share-screen-main d-flex">
 
-                <!-- screen  -->
-                <div class="screen-mod d-flex center-flex flex-dir-column" style="background-color: #0e71eb;">
-                    <img src="img/AkoGysul.jpg" alt="" class="screen-img">
-                    <p ><strong style="color: white;">Schermo 1</strong></p>
-                </div>
-                <!-- screen  -->
+                <ul class="d-flex">
+                    <li>
+                        <a href="#screen-shared-one">
+                            <div class="screen-mod d-flex center-flex flex-dir-column">
+                                <img src="img/Screen-one.png" alt="" class="screen-img">
+                                <p ><strong>Schermo 1</strong></p>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="#screen-shared-two">
+                            <div class="screen-mod d-flex center-flex flex-dir-column">
+                                <img src="img/Screen-two.png" alt="" class="screen-img">
+                                <p ><strong>Schermo 2</strong></p>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="#screen-shared-three">
+                            <div class="screen-mod d-flex center-flex flex-dir-column">
+                                <img src="img/Screen-three.png" alt="" class="screen-img">
+                                <p ><strong>Schermo 3</strong></p>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="#screen-shared-four">
+                            <!-- screen  -->
+                                <div class="screen-mod d-flex center-flex flex-dir-column">
+                                    <img src="img/Screen-four.png" alt="" class="screen-img">
+                                    <p ><strong>Schermo 4</strong></p>
+                                </div>
+                            <!--end screen  -->
+                        </a>
+                    </li>
+                </ul
+                >
 
-                <!-- screen  -->
-                <div class="screen-mod d-flex center-flex flex-dir-column" >
-                    <img src="img/AkoGysul.jpg" alt="" class="screen-img">
-                    <p><strong>Schermo 2</strong></p>
-                </div>
-                <!-- screen  -->
-
-                <!-- screen  -->
-                <div class="screen-mod d-flex center-flex flex-dir-column">
-                    <img src="img/AkoGysul.jpg" alt="" class="screen-img">
-                    <p><strong>Schermo 3</strong></p>
-                </div>
-                <!-- screen  -->
-
-                <!-- screen  -->
-                <div class="screen-mod d-flex center-flex flex-dir-column" >
-                    <img src="img/AkoGysul.jpg" alt="" class="screen-img">
-                    <p><strong>Schermo 4</strong></p>
-                </div>
-                <!-- screen  -->
-               
-                <!-- screen  -->
-                <div class="screen-mod d-flex center-flex flex-dir-column">
-                    <img src="img/AkoGysul.jpg" alt="" class="screen-img">
-                    <p><strong>Schermo 4</strong></p>
-                </div>
-                <!-- screen  -->
 
             </div>
             <!--END SHARE-SCREEN-MAIN  -->
-
-
 
 
             <!-- SCREEN-SHARE-FOOTER  -->
@@ -123,9 +137,33 @@
 
         </div>
         <!--END EXTRA !!!!! -->
+
+
         
+
+
+
+
+
+
+
+        <!-- VIEWER-CONTAINER  -->
         <div class="viewer-container d-flex j-f-center">
-            
+
+                                                    <!-- mini-extras (sry) -->
+                                                        <!-- screen-shared -->
+                                                            <img class="screen-shared" id="screen-shared-one" src="img/Screen-one.png" alt="">
+                                                        <!--end screen-shared -->
+                                                        <!-- screen-shared -->
+                                                            <img class="screen-shared" id="screen-shared-two" src="img/screen-two.png" alt="">
+                                                        <!--end screen-shared -->
+                                                        <!-- screen-shared -->
+                                                            <img class="screen-shared" id="screen-shared-three" src="img/Screen-three.png" alt="">
+                                                        <!--end screen-shared -->
+                                                        <!-- screen-shared -->
+                                                            <img class="screen-shared" id="screen-shared-four" src="img/screen-four.png" alt="">
+                                                        <!--end screen-shared -->
+                                                    <!-- mini-extras (sry) -->
 
         <!-- CONNECTED-VIEWER  -->
         <div class="connectet-viewer">
@@ -445,6 +483,16 @@
       
 
         </div>
+        <!-- VIEWER-CONTAINER  -->
+
+
+
+
+
+
+
+
+
 
     <!-- CHAT  -->
     <div id="chat" class="chat d-flex no-shrink" >
